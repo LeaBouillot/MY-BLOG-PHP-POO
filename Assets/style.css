@@ -15,8 +15,22 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-rows: repeat(3, 300px);
+  gap: 50px;
   margin: 20px;
+}
+
+.grid__single {
+  border: 1px solid rgb(73, 73, 73);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 100vh;
+  margin: 0 auto;
 }
 
 .article {

@@ -13,29 +13,31 @@
     <?php
     require_once 'header.php';
     ?>
-    <div class="container">
+    <main>
+        <section class="accueil-introduction">
 
 
-        <div class="card" style="width: 800px;">
+            <div class="card" style="width: 800px;">
 
-            <?php foreach ($blogs as $blog) : ?>
+                <?php foreach ($blogs as $blog) : ?>
 
-                <div class="card-body">
-                    <!-- <img class="card-img-top" src="<?= getPoster($blog['image']) ?>" alt="<?= $blog['title'] ?>"> -->
-                    <h5 class="card-title"><?= $blog['title'] ?></h5>
-                    <p class="card-text"><?= $blog['author'] ?></p>
-                    <p class="card-text"><?= $blog['content'] ?></p>
-                    <p class="card-text"><small class="text-muted">Edit at : <?= $blog['publication_date'] ?></small></p>
-                    <a href="home.php" class="btn btn-primary">Aller à la page d'accueil</a>
-                </div>
-            <?php endforeach ?>
-        </div>
+                    <div class="card-body">
+                        <!-- <img class="card-img-top" src="<?= getPoster($blog['image']) ?>" alt="<?= $blog['title'] ?>"> -->
+                        <h5 class="card-title"><?= $blog['title'] ?></h5>
+                        <p class="card-text"><?= $blog['author'] ?></p>
+                        <p class="card-text"><?= $blog['content'] ?></p>
+                        <p class="card-text"><small class="text-muted">Edit at : <?= $blog['publication_date'] ?></small></p>
+                        <a href="home.php" class="btn btn-primary">Aller à la page d'accueil</a>
+                    </div>
+                <?php endforeach ?>
+            </div>
 
+        </section>
+    </main>
 
-        <?php
-        require_once 'footer.php';
-        ?>
-    </div>
+    <?php
+    require_once 'footer.php';
+    ?>
 </body>
 
 </html>
