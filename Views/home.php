@@ -18,13 +18,14 @@
                 Ce blog a pour vocation de parcourir toutes les facettes des métiers de la tech.
                 Nous invitons des experts et des recruteurs du monde IT pour aborder de nombreux sujets : carrière, guides tech, salaire, bonheur au travail… Découvrez le parcours de <em>professionnels expérimentés</em> au travers de portraits et d’interviews.
             </p>
-            <a href="#contact" class="cta">Voir tout les articles</a>
+            <a href="article.php" class="cta">Voir tout les articles</a>
         </div>
     </section>
-    <div>
+    <div class="grid">
         <h2>Suivez l'actualité</h2>
-        <?php foreach ($carticles as $article): ?>
-            <div>
+        <?php foreach ($articles as $article): ?>
+            <div class="article">
+                <img src="" alt="">
                 <h3><?= $article['title'] ?></h3>
                 <p>Écrit par <?= $article['author'] ?></p>
                 <p><?= $article['resume'] ?></p>

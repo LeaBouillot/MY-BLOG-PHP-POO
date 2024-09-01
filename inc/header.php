@@ -7,6 +7,7 @@
         </a>
         <div>
             <a href="home.php">Home</a>
+            <a href="article.php">Articles</a>
             <a href="publier.php">Publier Article</a>
             <a href="login.php">Login</a>
             <input class="login" id="login-input" type="text" placeholder="Votre nom" />

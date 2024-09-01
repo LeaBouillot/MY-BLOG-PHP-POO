@@ -11,6 +11,25 @@ body {
   /* background: linear-gradient(#f1d5ff, #fff7f9); */
   background-color: #27146d;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}
+
 .logo {
   width: 150px;
 }
