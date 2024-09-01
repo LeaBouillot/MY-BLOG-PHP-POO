@@ -3,7 +3,7 @@
 
     <nav>
         <a href="index.html" class="lien-icone">
-            <img class="logo" src="images/logo-atelir.png" alt="Logo" />
+            <img class="logo" src="../images/logo.jpeg" alt="Logo" />
         </a>
         <div>
             <a href="home.php">Home</a>

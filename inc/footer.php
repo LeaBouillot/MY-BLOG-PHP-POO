@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../Assets/style.css">
 <footer>
     <a href="index.html" class="lien-icone">
-        <img class="logo" src="images/logo.png" alt="Logo" />
+        <img class="logo" src="../images/logo.jpeg" alt="Logo" />
     </a>
     <div>
         <a target="_blank" href="https://twitter.com/" class="lien-icone">
