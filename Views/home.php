@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog Dev</title>
+    <link rel="stylesheet" href="../Assets/style.css">
 </head>
 
 <body>
-    <?php include_once '../includes/header.php'; ?>
+    <?php include_once '../inc/header.php'; ?>
     <section>
         <div>
-            <h2> Welcome to my blog</h2>
+            <h2>On veut savoir ce qui rend les développeurs heureux
+            </h2>
             <p>
-                Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
-                plus de 5 ans maintenant, j’exerce mon métier avec la passion qui
-                m’anime : capturer l’essence de chaque instant.
+                Ce blog a pour vocation de parcourir toutes les facettes des métiers de la tech.
+                Nous invitons des experts et des recruteurs du monde IT pour aborder de nombreux sujets : carrière, guides tech, salaire, bonheur au travail… Découvrez le parcours de <em>professionnels expérimentés</em> au travers de portraits et d’interviews.
             </p>
-            <a href="#contact" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+            <a href="#contact" class="cta">Voir tout les articles</a>
         </div>
     </section>
     <div>
@@ -35,7 +36,7 @@
 
     </div>
 
-    <?php include_once '../includes/footer.php'; ?>
+    <?php include_once '../inc/footer.php'; ?>
 </body>
 
 </html>
