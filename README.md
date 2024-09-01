@@ -17,7 +17,26 @@ Ce projet est un site de blog de dev développé en PHP avec une architecture or
 
 ## Structure du Projet
 
-/ |-- index.php |-- config/ | |-- Database.php |-- includes/ | |-- header.php | |-- footer.php |-- classes/ | |-- Article.class.php | |-- User.class.php | |-- Category.class.php |-- pages/ | |-- accueil.php | |-- article.php | |-- publier.php | |-- login.php | |-- logout.php | |-- category.php |-- css/ | |-- style.css
+/
+|-- index.php
+|-- Ms/
+| |-- Database.php
+|-- includes/
+| |-- header.php
+| |-- footer.php
+|-- Models/
+| |-- Article.class.php
+| |-- Database.class.php
+| |-- Category.class.php
+|-- Views/
+| |-- home.php
+| |-- article.php
+| |-- publier.php
+| |-- login.php
+| |-- logout.php
+| |-- category.php
+|-- Assets/
+| |-- style.css
 
 ## Fabriqué avec
 
