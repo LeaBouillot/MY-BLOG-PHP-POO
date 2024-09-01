@@ -19,8 +19,8 @@ Ce projet est un site de blog de dev développé en PHP avec une architecture or
 
 /
 |-- index.php
-|-- Ms/
-| |-- Database.php
+|-- images/
+| |-- element1.jpg
 |-- includes/
 | |-- header.php
 | |-- footer.php
